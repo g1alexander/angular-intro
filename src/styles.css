@@ -38,3 +38,14 @@ button:focus {
 .p-1 {
   padding: 1px;
 }
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+}
