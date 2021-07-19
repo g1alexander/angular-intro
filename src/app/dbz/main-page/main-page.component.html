@@ -3,12 +3,9 @@
 
 <section class="row">
   <div class="col">
-    <app-personajes [personajes]="personajes"></app-personajes>
+    <app-personajes></app-personajes>
   </div>
   <div class="col">
-    <app-agregar
-      [nuevo]="nuevo"
-      (onNewPersonaje)="agregarPeronaje($event)"
-    ></app-agregar>
+    <app-agregar [nuevo]="nuevo"></app-agregar>
   </div>
 </section>
